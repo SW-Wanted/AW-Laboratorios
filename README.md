@@ -21,8 +21,12 @@ AW-Laboratorios/
 │       │   └── index.html
 │       ├── ex02_tabela_cargos/
 │       │   └── index.html
-│       └── ex03_external_css/
+│       ├── ex03_external_css/
+│       │   ├── index.html
+│       │   └── content/
+│       └── ex04_formulario/
 │           ├── index.html
+│           ├── subject.txt
 │           └── content/
 │
 └── README.md
