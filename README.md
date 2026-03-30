@@ -19,8 +19,11 @@ AW-Laboratorios/
 │   └── capitulo 1/
 │       ├── ex01_tabela/
 │       │   └── index.html
-│       └── ex02_tabela_cargos/
-│           └── index.html
+│       ├── ex02_tabela_cargos/
+│       │   └── index.html
+│       └── ex03_external_css/
+│           ├── index.html
+│           └── content/
 │
 └── README.md
 ```
