@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="content/css/styles.css" />
+  </head>
+  <body>
+    <form action="/" method="post">
+      <div>
+        <label for="t_nome">Nome</label>
+        <input name="t_nome" type="text" placeholder="Nome completo" />
+      </div>
+      <div>
+        <label>Gênero</label>
+        <div>
+          <input
+            type="radio"
+            name="rb_genero"
+            id="rb_masculino"
+            value="Masculino"
+          />
+          <label for="rbo_masculino">Masculino</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="rb_genero"
+            id="rbo_feminino"
+            value="Feminino"
+          />
+          <label for="rbo_feminino">Feminino</label>
+        </div>
+      </div>
+      <div>
+        <label>Linguagem de Programação favoritas:</label>
+        <div>
+          <div>
+            <input type="checkbox" name="cbo_csharp" id="cb_csharp" />
+            <label for="cbo_csharp">C#</label>
+          </div>
+          <div>
+            <input type="checkbox" name="cbo_php" id="cb_php" />
+            <label for="cbo_php">PHP</label>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="cbo_java" id="cb_java" />
+          <label for="cbo_java">Java</label>
+        </div>
+      </div>
+      <div>
+        <label for="d_nascimento">Data de Nascimento:</label>
+        <input type="date" name="d_nascimento" id="d_nascimento" />
+      </div>
+      <div>
+        <label for="ta_morada">Morada</label>
+        <textarea
+          rows="2"
+          cols="32"
+          name="ta_morada"
+          id="ta_morada"
+          placeholder="Morada"
+        ></textarea>
+      </div>
+      <div>
+        <label for="rb_estado_civil">Estado Civil</label>
+        <div>
+          <div>
+            <input type="radio" name="rbo_estado_civil" id="rbo_solteiro" />
+            <label for="rbo_estado_civil">Solteiro</label>
+          </div>
+          <div>
+            <input type="radio" name="rbo_estado_civil" id="rbo_casado" />
+            <label for="rbo_estado_civil">Casado</label>
+          </div>
+          <div>
+            <input type="radio" name="rbo_estado_civil" id="rbo_viuvo" />
+            <label for="rbo_estado_civil">Viúvo/a</label>
+          </div>
+        </div>
+      </div>
+      <div>
+        <select name="s_nacionalidade" id="s_nacionalidade">
+            <option value="English_US">Inglês</option>
+            <option value="Lingala_AO">Lingala</option>
+            <option value="French_FR">Francês</option>
+            <option value="Portuguese_AO">Português (Angola)</option>
+        </select>
+      </div>
+      <div>
+        <img src="content/imgs/sw_wanted.png" alt="SW Wanted" width="64px">
+      </div>
+      <div>
+        <input type="button" value="Submeter">
+      </div>
+    </form>
+  </body>
+</html>

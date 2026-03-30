@@ -1,0 +1,22 @@
+Criar um formulário 
+
+Nome:
+Genero:
+Linguagens de Programação favorita:
+Data de Nascimento: 
+Morada:
+admin:3306
+Nacionalidade:
+Idiomas qu fala:
+- Inglês
+- Lingala
+- Francês
+- Português (Angola)
+
+-----------------
+
+Imagem
+
+-----------------
+
+Submeter (Ir para outra página)
