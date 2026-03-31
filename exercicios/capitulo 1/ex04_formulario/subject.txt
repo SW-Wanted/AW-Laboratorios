@@ -7,7 +7,7 @@ Data de Nascimento:
 Morada:
 admin:3306
 Nacionalidade:
-Idiomas qu fala:
+Idiomas que fala:
 - Inglês
 - Lingala
 - Francês

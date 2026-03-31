@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #3b5998;
+  --secondary-color: #f4f4f9;
+  --text-color: #333;
+  --accent-color: #2c3e50;
+  --submit-color: #eddc00;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #666;
+}
+
+#sw-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.radio-label, 
+.checkbox-label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.1);
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--submit-color);
+  color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #fd8802;
+}
+
+form img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  #sw-form {
+    padding: 20px;
+  }
+}
