@@ -10,7 +10,7 @@ AW-Laboratorios/
 │       └── capitulo 1/
 │           ├── 1. Introdução.pdf
 │           ├── 2. HTML.pdf
-│           ├── 3. Tag Tabela.pdf
+│           ├── 3. Tabelas.pdf
 │           ├── 4. Formularios.pdf
 │           ├── 5. CSS.pdf
 │           └── 6. JavaScript.pdf
