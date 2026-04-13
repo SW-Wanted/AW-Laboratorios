@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript e estilos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="root">
+    <h1>Javascript e estilos</h1>
+    <div>
+        <h2>Alterar cor de fundo</h2>
+        <div class="squares">
+            <div class="square white" onclick="mudarCor('white')"></div>
+            <div class="square orange" onclick="mudarCor('orange')"></div>
+            <div class="square yellow" onclick="mudarCor('yellow')"></div>
+            <div class="square blue" onclick="mudarCor('blue')"></div>
+            <div class="square gray" onclick="mudarCor('gray')"></div>
+        </div>
+    </div>
+    <div>
+        <h2>Altera tamanho da janela</h2>
+        <div>
+            <div>
+                <a href="#" onclick="mudaTamanho()">muda</a>
+            </div>
+            <textarea name="" id="campo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse obcaecati eligendi architecto officia eius praesentium aut quam excepturi consectetur porro rerum optio enim nobis sit perspiciatis corrupti, atque a?
+        Dolorem ipsa corporis pariatur dolores fugiat officia praesentium dolor doloremque nihil, tenetur animi id nobis? Harum facilis asperiores blanditiis, suscipit magni labore impedit, aliquid mollitia est provident, minima eum sequi!
+        Eveniet, quisquam rerum sed culpa ab enim veritatis ducimus libero minus aliquam. Aliquam vitae corporis laboriosam magnam assumenda dolore blanditiis officia impedit, nulla quam libero consequatur? Adipisci distinctio eveniet tempore.
+        Officia obcaecati dignissimos magnam dicta, similique sint rerum consequuntur veritatis quibusdam quos amet minus distinctio libero hic perspiciatis fugiat, aspernatur ullam! Illum odit soluta unde nihil nulla eligendi ratione tempore?
+        Architecto ipsam assumenda, omnis temporibus soluta tempora eaque quod itaque atque possimus doloribus illum rerum fuga necessitatibus beatae minus maxime at doloremque aperiam, voluptas maiores recusandae commodi ullam? Laboriosam, iure?
+    </textarea>
+        </div>
+    </div>
+    <div>
+        <h2>Mostra e esconde janela</h2>
+        <div>
+            <a href="#" onclick="mostrar()">mostra</a>
+            <a href="#" onclick="ocultar()">esconde</a>
+        </div>
+    </div>
+
+    <div id="janela" class="white hide">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque veritatis qui beatae assumenda dolorem unde aut, numquam architecto cumque aperiam aliquid voluptate dolore non necessitatibus doloribus molestiae tempora iure?
+        Voluptatem, quod harum natus earum inventore ea quaerat cum quos ipsum omnis, nam maxime minus numquam, libero perspiciatis obcaecati doloremque! At harum ipsum accusamus sequi aliquam recusandae fuga, earum voluptas.
+        Qui incidunt, rem cumque blanditiis sit esse iste aliquid ea quod vero asperiores impedit reiciendis sint repudiandae placeat excepturi aperiam suscipit doloribus? Et laborum cumque consectetur ipsum corporis maiores dicta!
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
