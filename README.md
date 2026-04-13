@@ -24,10 +24,14 @@ AW-Laboratorios/
 │       ├── ex03_external_css/
 │       │   ├── index.html
 │       │   └── content/
-│       └── ex04_formulario/
+│       ├── ex04_formulario/
+│       │   ├── index.html
+│       │   ├── subject.txt
+│       │   └── content/
+│       └── ex05_javascript/
 │           ├── index.html
-│           ├── subject.txt
-│           └── content/
+│           ├── script.js
+│           └── style.css
 │
 └── README.md
 ```
