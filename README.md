@@ -28,10 +28,15 @@ AW-Laboratorios/
 │       │   ├── index.html
 │       │   ├── subject.txt
 │       │   └── content/
-│       └── ex05_javascript/
+│       ├── ex05_javascript/
+│       │   ├── index.html
+│       │   ├── index.html
+│       │   └── style.css
+│       └── ex06_portfolio/
 │           ├── index.html
 │           ├── script.js
-│           └── style.css
+│           ├── styles.css
+│           └── img/
 │
 └── README.md
 ```
