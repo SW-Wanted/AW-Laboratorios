@@ -1,0 +1,118 @@
+:root {
+    --background-color: #f1f1f1;
+    --section-color: #fafafa;
+    --header-text-color: #fff;
+    --text-color: black;
+    --header-color: #333;
+    --footer-color: #555;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--header-text-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    background-color: var(--footer-color);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+header nav ul li {
+    margin-left: 45px;
+}
+
+#nav-first {
+    margin-left: -45px ; 
+}
+
+main {
+    background-color: var(--header-text-color);
+    color: var(--text-color);
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    background-color: var(--section-color);
+    padding: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--header-text-color);
+}
+
+.button {
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: var(--footer-color);
+}
+
+.img {
+    width: 24px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    border: 1px solid var(--header-color);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.form-control input{
+    height: 24px;
+}
+
+.form-control select{
+    height: 32px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--header-color);
+    color: var(--footer-color);
+    padding: 10px;
+}
+
+footer a {
+    font-weight: bold;
+}
