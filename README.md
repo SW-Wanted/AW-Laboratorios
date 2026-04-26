@@ -30,13 +30,17 @@ AW-Laboratorios/
 │       │   └── content/
 │       ├── ex05_javascript/
 │       │   ├── index.html
-│       │   ├── index.html
+│       │   ├── script.js
 │       │   └── style.css
-│       └── ex06_portfolio/
+│       ├── ex06_portfolio/
+│       │   ├── index.html
+│       │   ├── script.js
+│       │   ├── styles.css
+│       │   └── img/
+│       └── ex07_calendario/
 │           ├── index.html
 │           ├── script.js
-│           ├── styles.css
-│           └── img/
+│           └── styles.css
 │
 └── README.md
 ```
