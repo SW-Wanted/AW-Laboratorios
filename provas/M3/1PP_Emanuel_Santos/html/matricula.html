@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../content/images/barbell.png" type="image/x-icon">
+    <link rel="stylesheet" href="../content/css/index.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="center">
+        <img class="banner img-small center" src="../content/images/banner.jpg" alt="Banner">
+    </header>
+    <main>
+        <section class="bg-gray">
+            <header>
+                <h1>Faça a sua Matricula</h1>
+            </header>
+            <form action="sucesso.html" method="get">
+                <div class="form-control">
+                    <label for="nome">Nome</label>
+                    <input name="nome" type="text">
+                </div>
+                <div class="form-control">
+                    <label for="idade">Idade</label>
+                    <input name="idade" type="text">
+                </div>
+                <div class="form-control">
+                    <label>Genero:</label>
+                    <div class="row">
+                        <div class="form-control-item">
+                            <input type="radio" name="genero" id="feminino">
+                            <label for="genero">Feminino</label>
+                        </div>
+                        <div class="form-control-item">
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="genero">Masculino</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label for="dieta">Está de dieta</label>
+                    <select name="dieta" id="dieta">
+                        <option value=""></option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label>Objectivo:</label>
+                    <div class="vertical">
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="objectivo">
+                                <label for="objetivo">Emagrecer</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="objectivo">
+                                <label for="objetivo">Ganhar massa muscular</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="objectivo">
+                                <label for="objetivo">Melhorar condicionamento físico</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="objectivo">
+                                <label for="objetivo">Outro</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Em que se deseja matricular?</label>
+                    <div class="vertical">
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="matricular-onde">
+                                <label for="matricular-onde">Musculação</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="matricular-onde">
+                                <label for="matricular-onde">Ginástica</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="matricular-onde">
+                                <label for="matricular-onde">Natação</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="matricular-onde">
+                                <label for="matricular-onde">Karaté</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-control-item">
+                                <input type="checkbox" name="matricular-onde">
+                                <label for="matricular-onde">Dança</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input class="btn input" type="submit" value="Matricular">
+                </div>
+            </form>
+        </section>
+        <div class="action">
+            <a class="btn" href="Index.html">Voltar</a>
+        </div>
+    </main>
+</body>
+
+</html>

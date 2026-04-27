@@ -1,0 +1,152 @@
+:root {
+    --yellow: #FFD700;
+    --gray: #ddd;
+    --green: #B8FFB8;
+    --mouse-hover: #F5F5F5;
+    --black: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+}
+
+#banner-id {
+    margin: 10px auto;
+}
+
+.img-size {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-small {
+    max-width: 600px;
+}
+
+h1 {
+    border-bottom: 3px solid var(--gray);
+}
+
+h2 {
+    border-bottom: 3px dashed var(--yellow);
+    padding-bottom: 20px;
+}
+
+section {
+    border: 1px solid var(--gray);
+    border-top: 1px solid #8f8f8f;
+    border-bottom: 1px solid #8f8f8f;
+    padding: 24px 5px;
+    margin: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 0 1px 0 1px;
+    margin: 10px auto;
+    gap: 1px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: var(--yellow);
+    color: var(--black);
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 32px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--mouse-hover);
+}
+
+.action {
+    margin: 24px 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 24px;
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-control-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.section-sucesso {
+    background-color: var(--green);
+    font-weight: bold;
+}
+
+.section-sucesso-text {
+    margin-top: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid var(--yellow);
+    margin: 24px auto;
+}
+thead {
+    background-color: var(--yellow);
+
+}
+td, th {
+    border: 1px solid var(--yellow);
+    padding: 8px 16px;
+}

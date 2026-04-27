@@ -48,4 +48,4 @@ days.forEach(day => {
             }
             day.classList.add("selected");
         });
-});
+});x
