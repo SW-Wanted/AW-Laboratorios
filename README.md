@@ -6,14 +6,20 @@
 AW-Laboratorios/
 │
 ├── docs/
+│   ├── projectos
+│   │   └── NzolaNet.pdf
 │   └── slides/
-│       └── capitulo 1/
-│           ├── 1. Introdução.pdf
-│           ├── 2. HTML.pdf
-│           ├── 3. Tabelas.pdf
-│           ├── 4. Formularios.pdf
-│           ├── 5. CSS.pdf
-│           └── 6. JavaScript.pdf
+│       ├── capitulo 1/
+│       │   ├── 1. Introdução.pdf
+│       │   ├── 2. HTML.pdf
+│       │   ├── 3. Tabelas.pdf
+│       │   ├── 4. Formularios.pdf
+│       │   ├── 5. CSS.pdf
+│       │   └── 6. JavaScript.pdf
+│       └── capitulo 2/
+│           ├── 1. Single Page Applications.pdf
+│           └── 2. Web API.pdf
+│
 │
 ├── exercicios/
 │   └── capitulo 1/
